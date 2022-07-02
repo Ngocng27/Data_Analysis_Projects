@@ -17,7 +17,7 @@ import numpy as np
 
     plt.plot(x,y)
 
-    # Create second line of best fi
+    # Create second line of best fit
     df_2000 = df[df['Year'] >= 2000]
 
     line2 = linregress(df_2000['Year'], df_2000['CSIRO Adjusted Sea Level'])
